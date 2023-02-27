@@ -30,7 +30,7 @@ export default function Chat() {
         // },
     ]);
     return (
-        <div className={`bg-[#dddddd] rounded-3xl p-8 absolute top-0 bottom-0 left-0 right-0`}>
+        <div className={`bg-[#dddddd] rounded-3xl p-8 my-20 absolute top-0 bottom-0 left-0 right-0`}>
                 <Head />
                 <div className="w-full h-[1px] my-8 bg-[#4f5361] " />
                 <Messages propmsgs={messages}/>
